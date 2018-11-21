@@ -1,5 +1,5 @@
 # jdbcbcrypt
-Adapting JDBCRealm to support bcrypt passwords
+Adapting JDBCRealm to support bcrypt(https://en.wikipedia.org/wiki/Bcrypt) passwords
 
 Documentation
 https://tomcat.apache.org/tomcat-7.0-doc/realm-howto.html#JDBCRealm
