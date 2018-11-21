@@ -12,5 +12,5 @@ Problem:
 Solution:
 - Small modification to the JDBCRealm tomcat implementation: https://github.com/apache/tomcat80/blob/trunk/java/org/apache/catalina/realm/JDBCRealm.java
 - Generate jar with maven and copy to $CATALINA_HOME/lib folder (you will also need to copy the bcrypt jar to $CATALINA_HOME/lib). 
-- Reference the customized realm from your server.xml realm configuration.
+- Reference the customized realm from your server.xml realm configuration (check server.xml example on this project).
 - Restart tomcat.
